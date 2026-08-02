@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
 import { RouterModule } from '@nestjs/core';
-import { AdminModule } from './admin/amin.module';
+import { AdminModule } from './admin/admin.module';
 import { DriverModule } from './driver/driver.module';
 import { PassengerModule } from './passenger/passenger.module';
 
