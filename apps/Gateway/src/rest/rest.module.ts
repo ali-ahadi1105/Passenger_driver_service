@@ -6,6 +6,9 @@ import { PassengerModule } from './passenger/passenger.module';
 
 @Module({
   imports: [
+    AdminModule,
+    DriverModule,
+    PassengerModule,
     RouterModule.register([
       {
         path: 'admin',
@@ -24,4 +27,4 @@ import { PassengerModule } from './passenger/passenger.module';
   controllers: [],
   providers: [],
 })
-export class RestModule {}
+export class RestModule { }
